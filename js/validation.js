@@ -2,7 +2,7 @@
   $("#signupform").validate({
     rules: {
        fname: { required: true, minlength: 2 } ,
-       emailadress: { required:true,email:true},
+       emailaddress: { required:true},
        wherep: { required:true},
        choose: { required:true},
        message: {required:true}
